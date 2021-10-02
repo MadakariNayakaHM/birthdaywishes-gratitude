@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  
+    <title>THANKS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+   
+    <style>
+       *{text-align:center;}
+       #time{color:white;
+             font-size:20px;
+            }
+      
+    </style>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="navbar">
+        <img src="foodlogo.jpg" alt="pic" id="logo">
+        <li class="item"><a href="https://www.youtube.com/watch?v=xHQt41sK8DY" target="_blank">HELLO</a></li>
+        <li class="item"><a href="https://www.youtube.com/watch?v=hRkc-OPHApY" target="_blank">EVERY</a></li>
+        <li class="item"><a href="https://www.youtube.com/watch?v=Tf00agsfCkI" target="_blank">BODY</a></li>
+        <li class="item"><a href="https://www.youtube.com/watch?v=PJYfzSPw2ao" target="_blank">GUYS</a></li>
+      </ul>
+    </nav>
+    <span id="time"></span>
+    <div id="thank">
+    <h1>Thank_you_Soo_Much!!</h1>
+    </div>
+    <section id="a">
+      <ul class="boxes">
+        <li class="box"><h1>THANK YOU ALL</h1>
+        <p>For your warm wishes</p>
+        <h3>your wishes made my day 👌</h3></li>
+        <li class="box"><h1>To family and friends</h1>
+        <p>Unknowingly if i hurted u guys its the time </p>
+        <h3>forgive me 🙏</h3></li>
+        <li class="box">
+          <h1>I pray to god</h1>
+          <p>that all of you to have a nice future ahead</p>
+          <h3>with full of joy 🙂</h3>
+        </li>
+      </ul>
+    </section>
+    <section id="b">
+      <div class="content">
+        <p id="para">
+          It is a beautiful day! It is a great reminder of how thankful I am for all the beauty I have in my life. Thanks for being a part of this great feeling! <br> <br> <br>
+Thank you to all my friends for the birthday wishes, gifts, laughs, weird birthday jokes, and everything. I keep our friendship and love in my heart. You guys are too much. Love you all. See you later! <br> <br> <br>
+I just wanted to take a moment and say "thank you" to everyone for all of the birthday wishes. It means a lot to me that you all took time from your busy lives to wish me a happy birthday. I feel very blessed to have each and every one of you as my friends. <br> <br> <br>
+Hi everyone! Thank you for all your birthday greetings. Yes, another long year and another number added to my age, but it is still great to hear from all of you out there. I hope you are all doing well. I will get in touch with each and everyone soon. <br> <br> <br>
+Thank you so much to all my friends and family that wished me a happy birthday
+        </p>
+
+      </div>
+      <button id="btn" onclick="togglehide()">hide/show</button>
+    </section>
+    <section id="c">
+    <iframe src=https://www.youtube.com/embed/FSwNEZOOqz8?controls=1&mute=0" frameborders="0"></iframe>
+    </section>
+    
+   <section id="thank">
+     <img src="thank2.jpg" alt="thank you" id="pic">
+   </section>
+<footer>
+  <h2 class="go"><strong>From HM_Nayaka</strong> , <br> <i>To Dearest Friends!!</i></h2>
+</footer>
+<script>
+  alert(" WELCOME to this page\nI am beginer in web-dev,if it looks bad please adjust 🙏\n From:MADAKARI NAYAKA H M \n To dearest friends and family");
+ function togglehide(){let btn=document.getElementById('btn');let para=document.getElementById('para');
+ if(para.style.display!='none'){para.style.display='none';}
+ else{para.style.display='block';}}
+ function displayTime(){time=new Date();
+ //console.log(time);
+ document.getElementById('time').innerHTML=time;}
+ setInterval(displayTime,1000);
+ function greet(){alert("Dont forget to give your Feedback!!");}
+ 
+ setTimeout(greet,15000,"thank you");
+</script>
+  </body>
+ 
+</html>
